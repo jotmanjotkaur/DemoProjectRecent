@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Login Suite">
+
+    <test name="Annotationdemo">
+
+      <classes>
+
+            <class name="sdet2.TC1">
+
+                <methods>
+
+                    <include name="test1"/>
+                    <include name="test2"/>
+
+                </methods>
+
+            </class>
+
+
+          <class name="sdet2.TC2">
+
+              <methods>
+
+                  <include name="test3"/>
+                  <include name="test4"/>
+
+              </methods>
+          </class>
+        </classes>
+    </test>
+</suite>
